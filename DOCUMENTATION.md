@@ -1,3 +1,4 @@
+To find the reasons for validation order rejections go to my-volume/rejection_list.json.
 
 **How to run the application?**
 
