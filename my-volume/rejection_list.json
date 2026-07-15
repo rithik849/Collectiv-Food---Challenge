@@ -1,0 +1,127 @@
+{
+    "1004": {
+        "order": {
+            "id": 1004,
+            "customerName": "Newcastle Deli",
+            "deliveryAddress": {
+                "addressLine1": "6 Grey Street",
+                "postcode": "   ",
+                "city": "Newcastle"
+            },
+            "deliveryDate": "22/07/2026",
+            "items": [
+                {
+                    "productSku": "M6L5K4J3H2G1",
+                    "productName": "Smoked Ham",
+                    "quantity": 3,
+                    "itemTotal": 23.55
+                }
+            ],
+            "total": 23.55
+        },
+        "reason": "Postcode left blank."
+    },
+    "1006": {
+        "order": {
+            "id": 1006,
+            "customerName": "Brighton Brunch",
+            "deliveryAddress": {
+                "addressLine1": "7 North Street",
+                "postcode": "BN1 1AE",
+                "city": "Brighton"
+            },
+            "deliveryDate": "30/07/2026",
+            "items": [
+                {
+                    "productSku": "ab12CD34EF56",
+                    "productName": "Free Range Eggs",
+                    "quantity": 2,
+                    "itemTotal": 9.5
+                }
+            ],
+            "total": 9.5
+        },
+        "reason": "Case mismatch for product SKU 'ab12CD34EF56'. Expected 'AB12CD34EF56'."
+    },
+    "1010": {
+        "order": {
+            "id": 1010,
+            "customerName": "Exeter Provisions",
+            "deliveryAddress": {
+                "addressLine1": "2 Cathedral Yard",
+                "postcode": "EX1 1HS",
+                "city": "Exeter"
+            },
+            "deliveryDate": "12/08/2026",
+            "items": [],
+            "total": 0
+        },
+        "reason": "Order has no items."
+    },
+    "1011": {
+        "order": {
+            "id": 1011,
+            "customerName": "Bath Bakery",
+            "deliveryAddress": {
+                "addressLine1": "9 Milsom Street",
+                "postcode": "BA1 1DN",
+                "city": "Bath"
+            },
+            "deliveryDate": "31/02/2026",
+            "items": [
+                {
+                    "productSku": "R8S9T1U2V3W4",
+                    "productName": "Cinnamon Buns",
+                    "quantity": 8,
+                    "itemTotal": 21.2
+                }
+            ],
+            "total": 21.2
+        },
+        "reason": "day 31 must be in range 1..28 for month 2 in year 2026"
+    },
+    "1002": {
+        "order": {
+            "id": 1002,
+            "customerName": "Central Cafe",
+            "deliveryAddress": {
+                "addressLine1": "8 Victoria Street",
+                "postcode": "SW1A 1AA",
+                "city": "London"
+            },
+            "deliveryDate": "20/08/2026",
+            "items": [
+                {
+                    "productSku": "GH78JK90LM12",
+                    "productName": "Sourdough Loaf",
+                    "quantity": 15,
+                    "itemTotal": 48.75
+                }
+            ],
+            "total": 48.75
+        },
+        "reason": "Order 1002 has a duplicate entry."
+    },
+    "1015": {
+        "order": {
+            "id": 1015,
+            "customerName": "Yorkshire Stores",
+            "deliveryAddress": {
+                "addressLine1": "22 The Shambles",
+                "postcode": "YO1 7LZ",
+                "city": "York"
+            },
+            "deliveryDate": "18/08/2026",
+            "items": [
+                {
+                    "productSku": "ZZ99YY88XX77",
+                    "productName": "Organic Honey",
+                    "quantity": 4,
+                    "itemTotal": 21.6
+                }
+            ],
+            "total": 21.6
+        },
+        "reason": "Invalid product SKU 'ZZ99YY88XX77'."
+    }
+}

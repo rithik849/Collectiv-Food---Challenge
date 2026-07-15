@@ -1,0 +1,34 @@
+services:
+    challenge-frontend:
+        image: challenge-frontend
+        container_name: challenge-frontend
+        build:
+            context: ./frontend
+            dockerfile: Dockerfile
+        environment:
+            VITE_API_URL: http://localhost:8000
+        ports:
+          - "8080:8080"
+        depends_on:
+            - challenge-backend
+        healthcheck:
+          test: "echo 'hello'"
+
+    challenge-backend:
+        image: challenge-backend
+        container_name: challenge-backend
+        build:
+            context: ./backend
+            dockerfile: Dockerfile
+        ports:
+          - "8000:8000"
+        volumes:
+          - ./my-volume:/backend/data
+
+volumes:
+    my-volume:
+      driver: local
+      driver_opts:
+        type: none
+        o: bind
+        device: ./my-volume
